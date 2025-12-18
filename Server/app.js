@@ -518,7 +518,7 @@ async getSystemStats() {
             headerSubtitle.textContent = `Тренер: ${this.currentUser.username}`;
         } else {
             headerTitle.innerHTML = '💬 Диалоговый тренажер';
-            headerSubtitle.textContent = 'Отработка работы с негативными сценариями';
+            headerSubtitle.textContent = 'Отработка диалогов с негативными сценариями';
         }
         
         document.getElementById('currentUserName').textContent = this.currentUser.username;
